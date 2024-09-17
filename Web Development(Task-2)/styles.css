@@ -1,0 +1,123 @@
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:thistle;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color:rgb(214, 213, 194);
+    padding: 40px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+    border-radius: 90px;
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.subheading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#new-task {
+    width: 70%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 15px 20px;
+    background-color:blue;
+    color: white;
+    border: none;
+    border-radius: 45px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:lightgrey;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #ecf0f1;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #7f8c8d;
+}
+
+li div {
+    display: flex;
+}
+
+li button {
+    margin-left: 10px;
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+li button.complete {
+    background-color: #2ecc71;
+}
+
+li button.edit {
+    background-color:brown;
+}
+
+li button:hover {
+    opacity: 0.9;
+}
+
+li button.complete:hover {
+    background-color:darkcyan;
+}
+
+li button.edit:hover {
+    background-color:yellowgreen;
+}
